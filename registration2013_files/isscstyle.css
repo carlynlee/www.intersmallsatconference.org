@@ -1,0 +1,198 @@
+/*	border: 	red 1px dashed;	*/
+
+
+body {
+	font-family: 	Helvetica, Arial, sans-serif;
+	text-align: 	center;
+	background: 	black;
+	/* border: 		red 1px dashed; */
+}
+
+h1 {
+	font-size:		16pt;
+	/* letter-spacing:	3pt; */
+	/* word-spacing:	2pt; */
+	/* text-transform:	uppercase; */
+	margin: 		0;
+}
+
+h2 {
+	font-size:		12pt;
+	/* font-weight:	normal; */
+	/* letter-spacing:	3pt;
+	/* text-transform:	uppercase; */
+	/* padding-bottom: 7px; */
+	margin:			0;
+}
+
+h3 {
+	font-size:		10pt;
+	font-weight:	bold;
+	letter-spacing:	1pt;
+	/* text-transform:	uppercase; */
+	margin:			0;
+}
+
+h4 {
+	font-size:		9pt;
+	font-weight: 	normal;
+	letter-spacing: 2pt;
+	word-spacing: 	8pt;
+	text-transform: uppercase;
+	margin: 		0;
+}
+
+/* Header */
+#header {
+	height:			228px;
+	width:			800px;
+	font-size:		16pt;
+	text-align:		left;
+	margin:			0 auto;
+	/* border: 		green 1px dashed; */
+}
+
+/* Box (invisible) for navigation bar along left side*/
+#navigation {
+	height:			300px;
+	width:			140px;
+	margin:			0 auto;
+	text-align:		left;
+	float: 			left;
+	/* border: 		green 1px dashed; */
+}
+
+/* Individual navigation blocks */
+.navoff {									/* when mouse not hovering over */
+	height:			20px;
+	width:			134px;
+	font-size:		10pt;
+	font-weight:	bold;
+	text-align:		left;
+	color:			white;
+	float:			left;
+	padding:		3px;
+	background:		#A8A8A8;
+}
+
+.navon {
+	height:			20px;					/* when mous is hovering over */
+	width:			134px;
+	font-size:		10pt;
+	font-weight:	bold;
+	text-align:		left;
+	color:			white;
+	float:			left;
+	padding:		3px;
+	background: 	#3399CC;
+}
+
+.thispage{
+	height:			20px;					/* indicates the current page */
+	width:			134px;
+	font-size:		10pt;
+	font-weight:	bold;
+	text-align:		left;
+	color:			white;
+	float:			left;
+	padding:		3px;
+	background: 	blue;
+}
+
+/* Main area where almost everything goes */
+#main {
+	/* position: 		relative; */
+	/* height:			500px; */
+	width:			800px;
+	margin:			0 auto;
+	z-index:		1;
+	/* border: 	red 1px dashed; */
+}
+
+/* wrapper for main content */
+#content {
+	width:			630px;
+	height:  		300px;
+	font-size:		10pt;
+	text-align:		justify;
+	padding-top:  	10px;
+	padding-left: 	15px;
+	padding-right:	15px;
+	float: 			left;
+	margin:			0 auto;
+	background:		#F5F5F5;
+	z-index:		5;
+	/* border: 		red 1px dashed; */
+}
+
+/* wrapper for main content */
+#picbar {
+	height:  		180px;
+	font-size:		10pt;
+	text-align:		center;
+	float: 			center;
+	margin:			0 auto;
+	/* border: 		red 1px dashed; */
+}
+
+/* Footer */
+#footer {
+	/* height:			30px; */
+	width:			660px;
+	font-size:		8.5pt;
+	color:			#999999;
+	text-align:		center;
+	padding-top:	1px;
+	margin:			0 auto;
+	background: 	black;
+	float: 			right;
+	z-index: 		6;
+	/* border: 		red 1px dashed; */
+}
+
+/* Set default link viewing properties (i.e. links in the main content) */
+a:link {
+	text-decoration:none;
+	color:			#0099CC;
+}
+a:visited {
+	text-decoration:none;
+	color:			#0099CC;
+}
+a:hover {
+	text-decoration:none;
+	color:			#66CCFF;
+}
+
+/* Set viewing properties for "breadcrumb" path navigation links */
+a.path:link {
+	text-decoration:none;
+	color:			#696969;
+}
+a.path:visited {
+	text-decoration:none;
+	color:			#808080;
+}
+a.path:hover {
+	text-decoration:none;
+	color:			#C0C0C0;
+}
+
+/* Set viewing properties for links in the header */
+a.head:link {
+	text-decoration:none;
+	color:			black;
+}
+a.head:visited {
+	text-decoration:none;
+	color:			black;
+}
+a.head:hover {
+	text-decoration:none;
+	color:			#999999;
+}
+
+/* Class for tabbing text */
+.tab {
+	text-indent: 40px;
+}
